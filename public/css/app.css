@@ -280,6 +280,9 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #232323;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 nav li:last-child a {
   background: #40E0D0;
@@ -346,4 +349,19 @@ section.login a:hover {
 .noty_theme__mint {
   border-radius: 50px !important;
   padding-left: 8px !important;
+}
+
+a.link {
+  color: #40E0D0;
+}
+
+@media(max-width:1060px){
+  .container{
+    max-width: 90%;
+  }
+  table{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }

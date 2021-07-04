@@ -1,6 +1,7 @@
 import axios from 'axios'
 import Noty from 'noty'
 
+
 let addToCart = document.querySelectorAll('.add-to-cart')
 let cartCounter = document.querySelector('#cartCounter');
 
@@ -32,3 +33,13 @@ addToCart.forEach((btn) =>{
         
     })
 })
+
+// Remove alert message after 2 seconds
+const alertMsg = document.querySelector('#success-alert')
+if(alertMsg) {
+    setTimeout(() => {
+        alertMsg.remove()
+    }, 2000)
+}
+
+
