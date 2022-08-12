@@ -2,64 +2,64 @@
     "_id": {
       "$oid": "5eee651f739f8c674fd736ee"
     },
-    "name": "Margherita",
-    "image": "pizza.png",
-    "price": "250",
+    "name": "Burger",
+    "image": "burger.png",
+    "price": "80",
     "size": "small"
   },{
     "_id": {
       "$oid": "5eee6671a27a66807cf2bea3"
     },
-    "name": "Marinara",
-    "image": "pizza.png",
-    "price": "300",
+    "name": "Dosa",
+    "image": "dosa.png",
+    "price": "130",
     "size": "medium"
   },{
     "_id": {
       "$oid": "5eee6692a27a66807cf2bea4"
     },
-    "name": "Carbonara",
-    "image": "pizza.png",
-    "price": "200",
-    "size": "small"
+    "name": "Noodels",
+    "image": "noodles.png",
+    "price": "180",
+    "size": "full"
   },{
     "_id": {
       "$oid": "5eee66a5a27a66807cf2bea5"
     },
-    "name": "Americana",
-    "image": "pizza.png",
-    "price": "500",
-    "size": "large"
+    "name": "Pasta",
+    "image": "pasta.png",
+    "price": "150",
+    "size": "full"
   },{
     "_id": {
       "$oid": "5eee66c4a27a66807cf2bea6"
     },
-    "name": "Chicken Mushroom",
-    "image": "pizza.png",
-    "price": "350",
-    "size": "medium"
+    "name": "Shakes",
+    "image": "shakes.png",
+    "price": "200",
+    "size": "full"
   },{
     "_id": {
       "$oid": "5eee66cfa27a66807cf2bea7"
     },
     "name": "Paneer pizza",
-    "image": "pizza.png",
-    "price": "200",
-    "size": "small"
+    "image": "paneerpizza.png",
+    "price": "250",
+    "size": "medium"
   },{
     "_id": {
       "$oid": "5eee66eea27a66807cf2bea8"
     },
-    "name": "Vegies pizza",
-    "image": "pizza.png",
-    "price": "600",
-    "size": "large"
+    "name": "Pav Bhaji",
+    "image": "pavbhaji.png",
+    "price": "140",
+    "size": "full"
   },{
     "_id": {
       "$oid": "5eee6717a27a66807cf2bea9"
     },
-    "name": "Pepperoni",
-    "image": "pizza.png",
-    "price": "500",
+    "name": "French Fries",
+    "image": "frenchfries.png",
+    "price": "100",
     "size": "medium"
   }]
