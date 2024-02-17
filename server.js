@@ -14,16 +14,17 @@ const passport = require("passport")
 // database connection
 mongoose.connect(process.env.MONGO_CONNECTION_URL ,{
     useNewUrlParser:true,
-    useUnifiedTopology:true,
-    useCreateIndex:true,
-    useFindAndModify:true
+    useUnifiedTopology:true
 });
+
 const connection = mongoose.connection;
+connection.on('error', (err) => {
+    console.log("No connection", err);
+});
 connection.once('open', ()=>{
     console.log("Connection is successful, Database connected");
-}).catch( (err) => {
-    console.log("No connection");
-}); 
+})
+
 
 
 
